@@ -17,3 +17,15 @@ Test/
 │── CMakeLists.txt
 
 │── README.md
+
+
+---
+git clone https://github.com/yourname/Test.git   
+cd Test  
+
+mkdir build   
+cd build   
+cmake ..  
+make  
+
+./test_swap
