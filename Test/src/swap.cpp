@@ -1,12 +1,13 @@
 #include "swap.h"
 
-//º¯ÊýµÄ¶¨Òå
+//ÂºÂ¯ÃŠÃ½ÂµÃ„Â¶Â¨Ã’Ã¥
 void swap(int a, int b)
 {
 	int temp = a;
 	a = b;
 	b = temp;
+	cout<< "After Swap"<< endl;
+	cout << "Now a = " << a << endl;
+	cout << "Now b = " << b << endl;
 
-	cout << "a = " << a << endl;
-	cout << "b = " << b << endl;
 }
